@@ -1,9 +1,10 @@
 //desconto 20%
 // 0.2
 
-function Card({desconto, src, alt, tipo, produto, genero, preço}) {
+function Card({desconto, src, alt, tipo, produto, genero, preço, id}) {
   return (
     <>
+     <link to={'product-description/${id}'} /> 
       <div clasName="flex flex-col w-48">
         {desconto && (
           <span className= "tag">{desconto * 100}% OFF</span>

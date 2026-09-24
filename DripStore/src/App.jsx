@@ -1,8 +1,9 @@
-import Register from "./pages/Register"
+import Rotas from "./assets/components/Rotas.jsx/"
+
 function App() {
   return (
       <>
-        <Register />
+        <Rotas />
       </>
   )
 }
