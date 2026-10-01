@@ -12,9 +12,9 @@ function ProductSection() {
 
   return ( 
       <>
-       
-         {listaCards}
-         
+          <div className="flex gap-2">
+             {listaCards}
+          </div>
       </>
   
      )
